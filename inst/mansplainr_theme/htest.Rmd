@@ -1,0 +1,17 @@
+---
+name: htest
+type: S3
+---
+
+```{r}
+if (x$p.value < .05) {
+  stmt <- paste("Wow, a significant result!",
+                "And on your first ever hypothesis test!",
+                "(I'm assuming.)")
+} else {
+  stmt <- paste("That means it's not significant at alpha = .05, but that's OK.",
+                "The important thing is that you tried.")
+}
+```
+
+That's great that you were able to do a hypothesis test. You got a p-value of `r format.pval(x$p.value)`. `r stmt`

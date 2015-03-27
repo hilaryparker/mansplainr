@@ -1,0 +1,16 @@
+---
+name: lm
+type: S3
+---
+
+You've performed a linear model. A linear model is one of the simplest models in data analysis. That's a good choice for you!
+
+Here's the coefficients and p-values you came up with.
+
+```{r}
+library(broom)
+
+knitr::kable(broom::tidy(x))
+```
+
+Each of these columns means... well, think of it like a... Anyway, the important thing to remember is that correlation is not causation.
