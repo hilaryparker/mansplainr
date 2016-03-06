@@ -1,0 +1,24 @@
+---
+name: data.frame
+type: S3
+---
+
+```{r}
+tot <- nrow(x)
+if (tot < 1000) {
+  stmt <- paste("Alright, well, this isn't a large amount of data.",
+    "That's good, it won't be overwhelming for you.")
+} else {
+  stmt <- paste("This is a lot of data. Are you sure you want to load it? Maybe you should look into a Big Data Solution; I can point you in the right direction if you'd like.")
+}
+cat(stmt)
+```
+
+It's really cool that you're working with data, any ways. Not a lot of people like you do! Let's look at a tiny bit of it, yeah?
+
+```{r}
+print(head(x))
+```
+
+Wow, that's some impressive data! Maybe you'll do something great with it! 
+(If not, don't worry. We don't have high expectations.)
