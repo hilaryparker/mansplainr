@@ -14,7 +14,7 @@ The package can be installed with
 
 After installation, the package can be loaded into R.
 
-    library(mansplain)
+    library(mansplainr)
 
 # Using mansplain
 
