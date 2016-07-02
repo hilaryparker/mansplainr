@@ -1,6 +1,6 @@
 # mansplainr
 
-### What is mansplain?
+### What is mansplainr?
 
 You probably need me to say this to you in simple terms. **mansplainr** translates S3 objects into text using standard templates in a simple and convenient way. 
 
