@@ -10,6 +10,7 @@ For help with the **mansplainr** R-package, there is a vignette available in the
 
 The package can be installed with
 
+    # devtools::install_github("hilaryparker/explainr")
     devtools::install_github("hilaryparker/mansplainr")
 
 After installation, the package can be loaded into R.
